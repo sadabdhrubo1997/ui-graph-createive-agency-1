@@ -1,6 +1,7 @@
 #header {
     width: 100%;
     padding-left: 10%;
+    margin-bottom: 10rem;
 
     .wrapper {
         width: 100%;
@@ -91,6 +92,7 @@
                         height: auto;
                         display: block;
                         margin-right: -.5rem;
+                        pointer-events: none;
                     }
 
                     &:hover {

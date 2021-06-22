@@ -1,0 +1,85 @@
+#aboutUs {
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .image {
+            width: 40%;
+            height: auto;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: .5rem;
+                -webkit-border-radius: .5rem;
+                -moz-border-radius: .5rem;
+                -ms-border-radius: .5rem;
+                -o-border-radius: .5rem;
+            }
+        }
+
+
+        .mainContent {
+            width: 48.5%;
+
+            p.heading {
+                font-family: lugfaMedium;
+                font-size: 2rem;
+                color: $brandColor;
+                margin-bottom: 1rem;
+
+            }
+
+            h2 {
+                font-family: lugfaSemiBold;
+                font-size: 4.8rem;
+                color: rgba(18, 18, 18, 0.9);
+                margin-bottom: 1rem;
+            }
+
+            p {
+                color: rgba(18, 18, 18, 0.8);
+                font-size: 1.6rem;
+                font-family: lugfaRegular;
+                line-height: 1.8;
+                margin-bottom: 2.8rem;
+            }
+
+            .projectCount {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                height: 9rem;
+
+                .line {
+                    height: 100%;
+                    width: 0.1rem;
+                    background-color: #121212;
+                }
+
+                .single {
+                    height: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    text-align: center;
+
+                    p {
+                        margin-bottom: 0;
+                        font-family: lugfaMedium;
+                        font-size: 1.6rem;
+                        color: rgba(18, 18, 18, 0.8);
+                    }
+                    h3{
+                        font-family: lugfaBlod;
+                        font-size: 5rem;
+                        color: $brandColor;
+                    }
+                }
+            }
+        }
+
+    }
+}
