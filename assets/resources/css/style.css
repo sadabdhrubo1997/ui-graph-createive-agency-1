@@ -216,8 +216,8 @@ body {
   width: 100%;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 44% auto;
-      grid-template-columns: 44% auto;
+  -ms-grid-columns: 47% auto;
+      grid-template-columns: 47% auto;
       grid-template-areas: 'main img' 'brand img';
 }
 
