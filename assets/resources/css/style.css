@@ -20,7 +20,6 @@ body {
 }
 
 .main {
-  display: none;
   width: 100%;
   padding-left: 10%;
 }
@@ -74,6 +73,10 @@ body {
 @font-face {
   font-family: lugfaBlack;
   src: url(../fonts/Lufga-Black.otf) format("opentype");
+}
+
+#topbar {
+  margin-bottom: 5.5rem;
 }
 
 #topbar .wrapper {
