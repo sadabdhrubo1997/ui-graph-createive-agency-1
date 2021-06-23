@@ -1,0 +1,73 @@
+#ourServices {
+    margin-top: 10rem;
+
+    p.heading {
+        color: $brandColor;
+        font-size: 2rem;
+        font-family: lugfaMedium;
+        margin-bottom: 1rem;
+
+    }
+
+    h2 {
+        max-width: 80rem;
+        color: rgba(18, 18, 18, 0.9);
+        font-size: 5rem;
+        font-family: lugfaSemiBold;
+        margin-bottom: 6.5rem;
+    }
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .singleItem {
+            margin-bottom: 7rem;
+            width: calc(100% / 3);
+            display: flex;
+
+            .inner {
+                max-width: 26.5rem;
+                display: flex;
+                flex-direction: column;
+
+                img{
+                    width: 6.4rem;
+                    margin-bottom: 1.6rem;
+                }
+
+                h3{
+                    margin-bottom: 1.6rem;
+                    font-family: lugfaBlod;
+                    font-size: 1.8rem;
+                    color: rgba(18, 18, 18, 0.9);
+                }
+                p{
+                    font-family: lugfaRegular;
+                    font-size: 1.6rem;
+                    color: rgba(18, 18, 18, 0.8);
+                    line-height: 1.8;
+                }
+            }
+
+        }
+
+        .singleItem:nth-child(1),
+        .singleItem:nth-child(4) {
+            justify-content: start;
+        }
+
+        .singleItem:nth-child(2),
+        .singleItem:nth-child(5) {
+            justify-content: center;
+        }
+
+        .singleItem:nth-child(3),
+        .singleItem:nth-child(6) {
+            justify-content: flex-end;
+        }
+
+    }
+}

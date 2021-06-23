@@ -451,4 +451,94 @@ body {
   font-size: 5rem;
   color: #f6513b;
 }
+
+#ourServices {
+  margin-top: 10rem;
+}
+
+#ourServices p.heading {
+  color: #f6513b;
+  font-size: 2rem;
+  font-family: lugfaMedium;
+  margin-bottom: 1rem;
+}
+
+#ourServices h2 {
+  max-width: 80rem;
+  color: rgba(18, 18, 18, 0.9);
+  font-size: 5rem;
+  font-family: lugfaSemiBold;
+  margin-bottom: 6.5rem;
+}
+
+#ourServices .wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#ourServices .wrapper .singleItem {
+  margin-bottom: 7rem;
+  width: calc(100% / 3);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#ourServices .wrapper .singleItem .inner {
+  max-width: 26.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#ourServices .wrapper .singleItem .inner img {
+  width: 6.4rem;
+  margin-bottom: 1.6rem;
+}
+
+#ourServices .wrapper .singleItem .inner h3 {
+  margin-bottom: 1.6rem;
+  font-family: lugfaBlod;
+  font-size: 1.8rem;
+  color: rgba(18, 18, 18, 0.9);
+}
+
+#ourServices .wrapper .singleItem .inner p {
+  font-family: lugfaRegular;
+  font-size: 1.6rem;
+  color: rgba(18, 18, 18, 0.8);
+  line-height: 1.8;
+}
+
+#ourServices .wrapper .singleItem:nth-child(1),
+#ourServices .wrapper .singleItem:nth-child(4) {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+#ourServices .wrapper .singleItem:nth-child(2),
+#ourServices .wrapper .singleItem:nth-child(5) {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#ourServices .wrapper .singleItem:nth-child(3),
+#ourServices .wrapper .singleItem:nth-child(6) {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
 /*# sourceMappingURL=style.css.map */
