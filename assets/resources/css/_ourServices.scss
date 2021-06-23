@@ -33,18 +33,19 @@
                 display: flex;
                 flex-direction: column;
 
-                img{
+                img {
                     width: 6.4rem;
                     margin-bottom: 1.6rem;
                 }
 
-                h3{
+                h3 {
                     margin-bottom: 1.6rem;
                     font-family: lugfaBlod;
                     font-size: 1.8rem;
                     color: rgba(18, 18, 18, 0.9);
                 }
-                p{
+
+                p {
                     font-family: lugfaRegular;
                     font-size: 1.6rem;
                     color: rgba(18, 18, 18, 0.8);
@@ -68,6 +69,5 @@
         .singleItem:nth-child(6) {
             justify-content: flex-end;
         }
-
     }
 }
