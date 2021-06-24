@@ -1,0 +1,204 @@
+#testimonial {
+    padding: 5rem 0;
+    background-color: rgba(246, 81, 59, 0.05);
+
+    .topHeader {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 9rem;
+
+        .inner {
+            p.header {
+                font-family: lugfaMedium;
+                font-size: 2rem;
+                color: $brandColor;
+                margin-bottom: 1.1rem;
+            }
+
+            h2 {
+                font-family: lugfaSemiBold;
+                font-size: 5rem;
+                color: rgba(18, 18, 18, 0.9);
+            }
+        }
+    }
+
+    .sliderWrapper {
+
+        .slick-list{
+            overflow: unset;
+
+        }
+
+        .slick-dots {
+            margin-top: 5.5rem;
+
+            li {
+                background-color: rgba(0, 0, 0, 0.5);
+                height: 1.3rem;
+                width: 1.3rem;
+                transition: .3s;
+                -webkit-transition: .3s;
+                -moz-transition: .3s;
+                -ms-transition: .3s;
+                -o-transition: .3s;
+                border-radius: 50%;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                -o-border-radius: 50%;
+
+                button {
+                    display: none;
+                }
+            }
+
+            li.slick-active {
+                background-color: $brandColor;
+            }
+        }
+
+
+        .slick-track {
+            .slick-slide.slick-active {
+                .singleSliderItemWrapper {
+                    .singleSliderItem {
+                        box-shadow: .5rem 3.5rem 100px rgba(89, 104, 118, 0.15);
+                    }
+                }
+            }
+        }
+
+        .singleSliderItemWrapper {
+            padding: 1.5rem;
+            padding-top: 3.2rem;
+
+            .singleSliderItem {
+                display: block;
+                background-color: rgb(255, 255, 255);
+                border-radius: .5rem;
+                -webkit-border-radius: .5rem;
+                -moz-border-radius: .5rem;
+                -ms-border-radius: .5rem;
+                -o-border-radius: .5rem;
+                padding: 2.5rem 1.5rem;
+                padding-top: 0;
+                transition: 1s;
+                -webkit-transition: 1s;
+                -moz-transition: 1s;
+                -ms-transition: 1s;
+                -o-transition: 1s;
+                box-shadow: .5rem 3.5rem 100px rgba(89, 104, 118, 0);
+
+
+                .image {
+                    width: 6.4rem;
+                    height: 6.4rem;
+                    overflow: hidden;
+                    border-radius: .5rem;
+                    -webkit-border-radius: .5rem;
+                    -moz-border-radius: .5rem;
+                    -ms-border-radius: .5rem;
+                    -o-border-radius: .5rem;
+                    margin: 0 auto;
+                    position: relative;
+                    top: -3.2rem;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                p.reviewText {
+                    font-size: 1.6rem;
+                    font-family: lugfaItalic;
+                    color: rgba(18, 18, 18, 0.7);
+                    line-height: 1.8;
+                    margin-bottom: 1.5rem;
+                }
+
+                .line {
+                    background-color: rgba(215, 213, 213, 1);
+                    height: .1rem;
+                    margin-bottom: 1.8rem;
+                }
+
+
+                .bottom {
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .left {
+                        p.name {
+                            font-family: lugfaSemibold;
+                            font-size: 1.6rem;
+                            color: rgba(18, 18, 18, 0.9);
+                            margin-bottom: 1rem;
+                        }
+
+                        p.designation {
+                            font-family: lugfaBlod;
+                            font-size: 1.2rem;
+                            color: rgba(18, 18, 18, 0.6);
+                        }
+                    }
+
+                    .right {
+                        display: flex;
+
+                        svg {
+                            fill: rgba(112, 117, 143, 0.3);
+                            width: 2.2rem;
+                            height: 2.1rem;
+                            margin-left: 0.9rem;
+                        }
+                    }
+
+                    .right.star-5 {
+                        svg {
+                            fill: rgba(250, 175, 56, 1);
+                        }
+                    }
+
+                    .right.star-4 {
+
+                        svg:nth-child(1),
+                        svg:nth-child(2),
+                        svg:nth-child(3),
+                        svg:nth-child(4) {
+                            fill: rgba(250, 175, 56, 1);
+                        }
+                    }
+
+                    .right.star-3 {
+
+                        svg:nth-child(1),
+                        svg:nth-child(2),
+                        svg:nth-child(3) {
+                            fill: rgba(250, 175, 56, 1);
+                        }
+                    }
+
+                    .right.star-2 {
+
+                        svg:nth-child(1),
+                        svg:nth-child(2) {
+                            fill: rgba(250, 175, 56, 1);
+                        }
+                    }
+
+                    .right.star-1 {
+                        svg:nth-child(1) {
+                            fill: rgba(250, 175, 56, 1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
