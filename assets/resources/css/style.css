@@ -8,6 +8,7 @@
 html {
   font-size: 59.28%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -757,6 +758,30 @@ body {
 #testimonial {
   padding: 5rem 0;
   background-color: rgba(246, 81, 59, 0.05);
+  position: relative;
+}
+
+#testimonial::after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  height: 100%;
+  width: calc((100% - 114rem) / 2);
+  background-color: #fff6f5;
+}
+
+#testimonial::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: calc((100% - 114rem) / 2);
+  background-color: #fff6f5;
+  z-index: 999999;
 }
 
 #testimonial .topHeader {
