@@ -1,0 +1,130 @@
+#pricing {
+    padding-top: 5rem;
+
+    .headingWrapper {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 8rem;
+
+        .headingInner {
+            p.heading {
+                font-family: lugfaMedium;
+                font-size: 2rem;
+                color: $brandColor;
+                margin-bottom: 1rem;
+            }
+
+            h2.heading {
+                font-family: lugfaSemibold;
+                font-size: 5rem;
+                color: rgba(18, 18, 18, 0.9);
+            }
+        }
+    }
+
+
+    .wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        .item {
+            width: 30.7%;
+            padding: 4rem;
+            border: .3rem solid rgba(32, 32, 32, 0.1);
+            border-radius: .5rem;
+            -webkit-border-radius: .5rem;
+            -moz-border-radius: .5rem;
+            -ms-border-radius: .5rem;
+            -o-border-radius: .5rem;
+            text-align: center;
+            transition: .3s;
+            -webkit-transition: .3s;
+            -moz-transition: .3s;
+            -ms-transition: .3s;
+            -o-transition: .3s;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &:hover {
+                border: .3rem solid $brandColor;
+            }
+
+
+            .top {
+                p.packageName {
+                    color: rgba(18, 18, 18, 0.9);
+                    font-family: lugfaSemiBold;
+                    font-size: 1.8rem;
+                    margin-bottom: 3.2rem;
+                }
+
+                .price {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 4rem;
+
+
+                    p.currency {
+                        font-size: 4.8rem;
+                        font-family: lugfaBlod;
+                        color: rgba(18, 18, 18, 0.9);
+                        margin-right: 2.3rem;
+                    }
+
+
+                    p.deadline {
+                        color: rgba(18, 18, 18, 0.8);
+                        font-family: lugfaMedium;
+                        font-size: 1.8rem;
+                    }
+                }
+
+                .features {
+                    margin-bottom: 5.6rem;
+
+                    p {
+                        font-family: lugfaSemiBold;
+                        font-size: 1.8rem;
+                        color: rgba(18, 18, 18, 0.8);
+                        margin-bottom: 1.8rem;
+                    }
+
+                    p:last-child {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+
+
+            .bottom {
+                a {
+                    text-decoration: none;
+                    background-color: $brandColor;
+                    transition: .3s;
+                    -webkit-transition: .3s;
+                    -moz-transition: .3s;
+                    -ms-transition: .3s;
+                    -o-transition: .3s;
+                    display: block;
+                    font-family: lugfaSemiBold;
+                    font-size: 1.6rem;
+                    border-radius: 0.5rem;
+                    -webkit-border-radius: 0.5rem;
+                    -moz-border-radius: 0.5rem;
+                    -ms-border-radius: 0.5rem;
+                    -o-border-radius: 0.5rem;
+                    color: #ffffff;
+                    padding: 1.5rem;
+
+                    &:hover{
+                        background-color: $brandHoverColor;
+                    }
+                }
+            }
+        }
+    }
+}
